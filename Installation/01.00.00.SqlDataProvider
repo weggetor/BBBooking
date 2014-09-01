@@ -1,0 +1,42 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'{databaseOwner}[{objectQualifier}BBBooking_Booking]') and OBJECTPROPERTY(id, N'IsTable') = 1)
+   BEGIN
+      CREATE TABLE {databaseOwner}[{objectQualifier}BBBooking_Booking] ( 
+         BookingId INT NOT NULL IDENTITY (1,1),
+         UserID INT NOT NULL,
+         PortalID INT NOT NULL,
+         ModuleID INT NOT NULL,
+         Startdate DATETIME NOT NULL,
+         Enddate DATETIME NOT NULL,
+         CreatedOnDate DATETIME NOT NULL DEFAULT getdate(),
+         LastModifiedOnDate DATETIME NULL,
+         CreatedByUserID INT NOT NULL,
+         LastModifiedByUserID INT NULL,
+		 State INT NOT NULL DEFAULT (0)
+      )
+      ALTER TABLE {databaseOwner}[{objectQualifier}BBBooking_Booking] ADD CONSTRAINT PK_{objectQualifier}BBBooking_Booking PRIMARY KEY CLUSTERED  (BookingId)
+   END
+GO
+IF NOT EXISTS (SELECT 1 FROM sys.objects where name='FK_BBBooking_Users' and type='F')
+   ALTER TABLE {databaseOwner}[{objectQualifier}BBBooking_Booking] WITH NOCHECK ADD CONSTRAINT FK_{objectQualifier}BBBooking_Users FOREIGN KEY ( UserID ) REFERENCES {databaseOwner}[{objectQualifier}Users] ( UserID ) ON DELETE CASCADE
+GO
+IF NOT EXISTS (SELECT 1 FROM sys.objects where name='FK_BBBooking_Portals' and type='F')
+   ALTER TABLE {databaseOwner}[{objectQualifier}BBBooking_Booking] WITH NOCHECK ADD CONSTRAINT FK_{objectQualifier}BBBooking_Portals FOREIGN KEY ( PortalID ) REFERENCES {databaseOwner}[{objectQualifier}Portals] ( PortalID ) ON DELETE CASCADE
+GO
+IF NOT EXISTS (SELECT 1 FROM sys.objects where name='FK_BBBooking_Modules' and type='F')
+   ALTER TABLE {databaseOwner}[{objectQualifier}BBBooking_Booking] WITH NOCHECK ADD CONSTRAINT FK_{objectQualifier}BBBooking_Modules FOREIGN KEY ( ModuleID ) REFERENCES {databaseOwner}[{objectQualifier}Modules] ( ModuleID ) ON DELETE CASCADE
+GO
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

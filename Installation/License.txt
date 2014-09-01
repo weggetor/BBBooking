@@ -1,0 +1,4 @@
+﻿<h1>License</h1>
+<p>
+	Enter License details here.
+</p>

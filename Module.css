@@ -1,0 +1,5 @@
+.bbbooking_view div.legend {font-size:7pt; background-color:#EEEEEE;border:1px solid darkgrey;padding: 0 3px;}
+.bbbooking_view span.legend { padding: 1px 3px;}
+.bbbooking_view .RadInput_Default input.riTextBox {padding: 4px 5px !important;}
+select.bbbooking_edit { width: 486px;max-width: 486px;}
+.bbbooking_edit td > .dnnLabel { width: inherit; white-space: nowrap}

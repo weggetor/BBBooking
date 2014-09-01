@@ -1,0 +1,61 @@
+<#@ template language="C#" hostspecific="True" debug="True" #>
+<#@ include file="PetaPoco.Core.ttinclude" #><#
+    // Settings
+    ConnectionStringName = "SiteSqlServer";            // Uses last connection string in config if not specified
+    Namespace = "Bitboxx.DNNModules.BBBooking";
+    RepoName = ".";
+    GenerateOperations = false;
+    GeneratePocos = true;
+    GenerateCommon = false;
+    ClassPrefix = "";
+    ClassSuffix = "";
+    TrackModifiedColumns = false;
+    IncludeViews = true;
+
+    // Read schema
+    Tables tables = LoadTables();
+	string prefix = "BBBooking";
+	
+
+/*
+    // Tweak Schema
+    tables["tablename"].Ignore = true;                          // To ignore a table
+    tables["tablename"].ClassName ="newname" ;                  // To change the class name of a table
+    tables["tablename"]["columnname"].Ignore = true;            // To ignore a column
+    tables["tablename"]["columnname"].PropertyName="newname";   // To change the property name of a column
+    tables["tablename"]["columnname"].PropertyType="bool";      // To change the property type of a column
+*/
+
+    for (int i = 0; i < tables.Count; i++)
+    {
+        if (!tables[i].Name.ToUpperInvariant().Contains(prefix.ToUpper()))
+        {
+            tables[i].Ignore = true;
+        }
+		else
+		{
+			int startIndex = 0;
+			string originalString = tables[i].Name;
+			string oldValue = prefix + "_";
+			string newValue = "";
+			while (true)
+			{
+				startIndex = originalString.IndexOf(oldValue, startIndex, StringComparison.CurrentCultureIgnoreCase);
+				if (startIndex == -1)
+					break;
+
+				originalString = originalString.Substring(0, startIndex) + newValue + originalString.Substring(startIndex + oldValue.Length);
+
+				startIndex += newValue.Length;
+			}
+
+			tables[i].ClassName = originalString + "Info";
+		}
+    }
+
+    // Generate output
+    if (tables.Count>0)
+    {
+#>
+<#@ include file="PetaPoco.Generator.ttinclude" #>
+<# } #>

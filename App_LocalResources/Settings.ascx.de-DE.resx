@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>BBBooking Einstellungen</value>
+  </data>
+	<data name="lblAddress.Text" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+	<data name="lblArrivalDays.Help" xml:space="preserve">
+    <value>Wählen Sie die Tage, an denen eine Anreise / Check-in möglich ist</value>
+  </data>
+	<data name="lblArrivalDays.Text" xml:space="preserve">
+    <value>Anreise am</value>
+  </data>
+	<data name="lblBodytext.Help" xml:space="preserve">
+    <value>Definieren Sie hier die Benachrichtigungs E-Mail. Verwenden Sie die folgenden Platzhalter: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[STREET],[CITY],[POSTALCODE],[PHONE],[FAX],[EMAIL],[REMARK], [STARTDATE],[ENDATE]</value>
+  </data>
+	<data name="lblBodytext.Text" xml:space="preserve">
+    <value>E-Mail Text</value>
+  </data>
+	<data name="lblCity.Text" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+	<data name="lblEmail.Text" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+	<data name="lblFax.Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+	<data name="lblFields.Help" xml:space="preserve">
+    <value>Überprüfen Sie welche Felder angezeigt werden sollen und welche ausgefüllt werden müssen.</value>
+  </data>
+	<data name="lblFields.Text" xml:space="preserve">
+    <value>Felder anzeigen</value>
+  </data>
+	<data name="lblFirstname.Text" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+	<data name="lblLastname.Text" xml:space="preserve">
+    <value>Nachname</value>
+  </data>
+	<data name="lblMandatory.Text" xml:space="preserve">
+    <value>obligatorisch</value>
+  </data>
+	<data name="lblMinDays.Help" xml:space="preserve">
+    <value>Bitte geben Sie die Mindestanzahl an Tagen für eine gültige Reservierung ein.</value>
+  </data>
+	<data name="lblMinDays.Text" xml:space="preserve">
+    <value>Mindestensanzahl Tage</value>
+  </data>
+	<data name="lblMinOffset.Help" xml:space="preserve">
+    <value>Bitte geben Sie die Mindestanzahl an Tagen zwischen dem heutigen Datum dem frühesten Beginn der Buchung ein.</value>
+  </data>
+	<data name="lblMinOffset.Text" xml:space="preserve">
+    <value>Vorlaufzeit</value>
+  </data>
+	<data name="lblOrganization.Text" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+	<data name="lblPhone.Text" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+	<data name="lblPostalCode.Text" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+	<data name="lblRecipientEmail.Help" xml:space="preserve">
+    <value>Geben Sie die E-Mail-Adresse an, an die die eingegebenen Informationen gesendet werden sollen  </value>
+  </data>
+	<data name="lblRecipientEmail.Text" xml:space="preserve">
+    <value>Empfänger E-Mail</value>
+  </data>
+	<data name="lblRemark.Text" xml:space="preserve">
+    <value>Bemerkung</value>
+  </data>
+	<data name="lblSenderEmail.Help" xml:space="preserve">
+    <value>Geben Sie die e-Mail-Adresse des Absenders an (z.B. "contact@mydomain.com")</value>
+  </data>
+	<data name="lblSenderEmail.Text" xml:space="preserve">
+    <value>Absender E-Mail</value>
+  </data>
+	<data name="lblSenderName.Help" xml:space="preserve">
+    <value>Geben Sie den Namen des Absenders an (z.B. "Kontaktformular auf www.mydomain.com")</value>
+  </data>
+	<data name="lblSenderName.Text" xml:space="preserve">
+    <value>Name des Absenders</value>
+  </data>
+	<data name="lblSendToUser.Help" xml:space="preserve">
+    <value>Ankreuzen, wenn auch eine Kopie an den Benutzer gesendet werden soll.</value>
+  </data>
+	<data name="lblSendToUser.Text" xml:space="preserve">
+    <value>Kopie an Benutzer</value>
+  </data>
+	<data name="lblStreet.Text" xml:space="preserve">
+    <value>Straße</value>
+  </data>
+	<data name="lblSubject.Help" xml:space="preserve">
+    <value>Geben Sie den Betreff für die E-Mail an. Verwenden Sie die folgenden Platzhalter:[FIRSTNAME],[LASTNAME],[ORGANIZATION],[STREET],[CITY],[POSTALCODE],[PHONE],[FAX],[EMAIL],[REMARK], [STARTDATE],[ENDATE]</value>
+  </data>
+	<data name="lblSubject.Text" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+	<data name="lblVisible.Text" xml:space="preserve">
+    <value>sichtbar</value>
+  </data>
+	<data name="lblOnlyFutureDays.Help" xml:space="preserve">
+    <value>Ankreuzen, wenn der Besucher nur zukünftige Tage in der Übersicht sehen darf.</value>
+  </data>
+	<data name="lblOnlyFutureDays.Text" xml:space="preserve">
+    <value>Nur Zukünftige</value>
+  </data>
+</root>

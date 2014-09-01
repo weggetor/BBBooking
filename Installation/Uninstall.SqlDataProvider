@@ -1,0 +1,17 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+IF EXISTS (SELECT * FROM dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}BBBooking_Booking]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+	DROP TABLE {databaseOwner}[{objectQualifier}BBBooking_Booking]
+go
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

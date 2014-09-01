@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project>
+  <configuration createBackupFiles="False" hideEmptyRows="False" hideTranslatedRows="False" useSpellChecker="True" neutralLanguageCode="en-US" languagesToDisplay="">
+    <globalSetting name="CreateNewFileForm.prefixTextBox.Text">####</globalSetting>
+    <globalSetting name="CreateNewFileForm.prefixCheckBox.Checked">False</globalSetting>
+    <globalSetting name="CreateNewFileForm.referenceLanguageComboBox.SelectedIndex">0</globalSetting>
+    <globalSetting name="CreateNewFileForm.newLanguageComboBox.SelectedIndex">50</globalSetting>
+    <globalSetting name="CreateNewFileForm.copyTextsCheckBox.Checked">True</globalSetting>
+    <globalSetting name="CreateNewFileForm.automaticallyTranslateCheckBox.Checked">True</globalSetting>
+    <globalSetting name="Filter-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="ActiveFilterString" /&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="Sort-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="SortInfo"&gt;~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF5EZXZFeHByZXNzLlh0cmFHcmlkLnYxMS4xLCBWZXJzaW9uPTExLjEuMTIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhBQEAAAA4RGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb0NvbGxlY3Rpb24EAAAACmdyb3VwQ291bnQFY2xvbmUPY2xvbmVHcm91cENvdW50E0NvbGxlY3Rpb25CYXNlK2xpc3QAAwADCLMBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvLCBEZXZFeHByZXNzLlh0cmFHcmlkLnYxMS4xLCBWZXJzaW9uPTExLjEuMTIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhXV0IHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAAAAAAAAkDAAAAAAAAAAkEAAAABAMAAACzAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbywgRGV2RXhwcmVzcy5YdHJhR3JpZC52MTEuMSwgVmVyc2lvbj0xMS4xLjEyLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAAAAAAAAAAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAABAAAAAcFAAAAAAEAAAAAAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAABAGAAAABAAAAAkHAAAADQMMCAAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxMS4xBQcAAAAuRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbwIAAAAJU29ydE9yZGVyCkNvbHVtbk5hbWUAAQgIAAAAAQAAAAYJAAAAB2NvbE5hbWUL&lt;/property&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="projectMruItems">&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;items&gt;&lt;item type="2" checksum="3100839929" /&gt;&lt;item type="2" checksum="1057222710" /&gt;&lt;item type="2" checksum="3238574782" /&gt;&lt;/items&gt;</globalSetting>
+    <userSetting name="Torsten@TW-WIN8-DEVWEB.filesInitialDir">C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources</userSetting>
+    <userSetting name="Torsten@TW-WIN8-DEVWEB.FindText">
+    </userSetting>
+    <userSetting name="Torsten@TW-WIN8-DEVWEB.RecentFiles">C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Settings.ascx.resx;C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Settings.ascx.de-DE.resx###***###C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\View.ascx.resx;C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\View.ascx.de-DE.resx###***###C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Edit.ascx.resx;C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Edit.ascx.de-DE.resx</userSetting>
+    <description>
+    </description>
+  </configuration>
+  <fileGroups>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="7efc2a3a-0b3b-44dc-9a4e-b7952b4a14f9">
+      <file filePath="App_LocalResources\Edit.ascx.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Edit.ascx.resx" uniqueID="48810742-016c-4f4e-8468-5df6c0c362d7" />
+      <file filePath="App_LocalResources\Edit.ascx.de-DE.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Edit.ascx.de-DE.resx" uniqueID="14cc2872-e3b3-4b0e-8202-5f40624e933b" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="6470795f-a453-41f3-b0fd-0d042669de7a">
+      <file filePath="App_LocalResources\Settings.ascx.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Settings.ascx.resx" uniqueID="c28a2ad0-e556-40e3-b009-38c37383c41f" />
+      <file filePath="App_LocalResources\Settings.ascx.de-DE.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\Settings.ascx.de-DE.resx" uniqueID="3d27b6d1-feda-41da-a706-6fe074f3b554" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="76d741af-c2f8-4d8c-bc23-67c5bf06e15b">
+      <file filePath="App_LocalResources\View.ascx.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\View.ascx.resx" uniqueID="dbc03a68-5903-4da2-aaa9-9dc143bd7b60" />
+      <file filePath="App_LocalResources\View.ascx.de-DE.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBBooking\dnn\DesktopModules\BBBooking\App_LocalResources\View.ascx.de-DE.resx" uniqueID="58f25b35-2666-46eb-8908-713e994eec44" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+  </fileGroups>
+  <projectFolders />
+</project>
